@@ -1,0 +1,86 @@
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+   h1 {
+	color: #b80dfe;
+	text-align: center;
+}
+
+#left-container {
+	background-color: #a69eda;
+	width: 15%;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+#right-container {
+	background-color:  #a69eda;
+	width: 15%;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	height: 100%;
+	padding: 10px;
+}
+
+.plant-holder {
+	position: relative;
+	height: 13%;
+	left: -10px;
+}
+
+.plant {
+	position: absolute;
+	max-width: 150%;
+	max-height: 150%;
+	z-index: 2;
+}
+
+.jar-walls {
+	height: 80%;
+	width: 60%;
+	background: #4995b5;
+	border-radius: 10%;
+	position: absolute;
+	bottom: 0.5%;
+	left: 20%;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+.jar-top {
+	width: 50%;
+	height: 5%;
+	background: #4995b5;
+	position: absolute;
+	bottom: 80.5%;
+	left: 25%;
+	opacity: 0.7;
+	z-index: 1;
+}
+
+.jar-bottom {
+	width: 52%;
+	height: 1%;
+	background: #4995b5;
+	position: absolute;
+	bottom: 0%;
+	left: 25%;
+	opacity: 0.7;
+}
+
+.dirt {
+	width: 58%;
+	height: 6%;
+	background: #740852;
+	position: absolute;
+	border-radius: 0 0 4rem 4rem;
+	bottom: 1%;
+	left: 21%;
+	opacity: 0.7;
+	z-index: -1;
+}
